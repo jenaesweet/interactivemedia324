@@ -1,0 +1,29 @@
+/* practice tooltip */ 
+
+body{
+	background: white;
+}
+
+.tooltip .tooltip-text {
+	background: black;
+	position: absolute;
+	top: -30px;
+	width: 110px;
+	margin-left: -5px;
+	color: white;
+	font-size: 15px;
+	padding: 10px;
+	font-family: "helvetica";
+	opacity: 0;
+	text-align: center;
+
+	-webkit-transition: all 500ms ease-in-out;
+}
+
+.tooltip:hover {
+	color: black;
+}
+
+.tooltip:hover .tooltip-text {
+	opacity: 1;
+}
