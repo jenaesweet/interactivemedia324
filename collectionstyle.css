@@ -1,0 +1,126 @@
+body{
+	background-color: 	black;
+}
+
+.header{
+	font-family: sans-serif;
+	font-weight:100;
+	font-size: xx-large;
+	text-align: center;
+	padding:20px;
+	position: relative;
+	color: white;
+	
+}
+
+
+ .wrapper{
+ 	display: flex;
+ 	
+ }
+    
+
+
+    
+    .boxone{
+    	float: left;
+    	display: flex;
+    	
+ 	   width: 800px;
+      height: 800px;
+      background: 	#F4A460;
+		margin: auto;
+		width: 50%;
+		border:3px solid black;     
+		
+		margin-left: 1250px;
+    }
+
+ 	.hover{
+ 		background: white;
+ 	}
+
+
+
+
+        .boxtwo{
+        	float: left;
+    	display: flex;
+ 	   width: 800px;
+      height: 800px;
+      background: #B0E0E6;
+      margin: auto;
+		width: 50%;
+		border:3px solid black;     
+		padding: 10px;
+		margin-left: 800px;
+
+     
+
+    }
+		    .boxthree{
+    	display: flex;
+ 	   width: 800px;
+      height: 800px;
+      background: #FA8072;
+      margin: auto;
+		width: 50%;
+		border:3px solid black;     
+		padding: 10px;
+		margin-left: 1250px;
+     
+
+    }
+
+	    .boxfour{
+	    	float: left;
+    	display: flex;
+ 	   width: 800px;
+      height: 800px;
+      background: #C0C0C0;
+      margin: auto;
+		width: 50%;
+		border:3px solid black;     
+		padding: 10px;
+		margin-left: 800px;
+     
+
+    }
+
+    	    .boxfive{
+    	    	float: left;
+    	display: flex;
+ 	   width: 800px;
+      height: 800px;
+      background: #87CEEB;
+      margin: auto;
+		width: 50%;
+		border:3px solid black;     
+		padding: 10px;
+		margin-left: 1250px;
+     
+
+    }
+
+	    .boxsix{
+    	display: flex;
+ 	   width: 800px;
+      height: 800px;
+      background: #D8BFD8;
+      margin: auto;
+		width: 50%;
+		border:3px solid black;     
+		padding: 10px;
+		margin-left: 800px;
+
+     
+
+    }
+
+
+
+
+
+
+
+
