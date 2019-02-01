@@ -1,0 +1,17 @@
+body {
+ background-color: white;
+}
+.music
+{
+ width: 1000px;
+ height: 1500px;
+ background: url(image/music.png) no-repeat;
+}
+.music:hover {
+ width: 1000px;
+ height: 1500px;
+ background: url(image/EarPNG.png) no-repeat;
+ }
+
+
+
