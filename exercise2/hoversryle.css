@@ -1,0 +1,14 @@
+body {
+ background-color: white;
+}
+.ear
+{
+ width: 1000px;
+ height: 1500px;
+ background: url(music.png) no-repeat;
+}
+.ear:hover {
+ width: 1000px;
+ height: 1500px;
+ background: url(EarPNG.png) no-repeat;
+ }
