@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css?family=Economica');
+body{
+
+	background-color:black;
+
+}
+
+.header{
+	font-family: 'Economica', sans-serif;
+	font-weight:100;
+	font-size: 100px;
+	text-align: center;
+	padding:20px;
+	position: relative;
+	color: white;
+	
+}
+
+
+
+    
+
+
+    
+   
+    
+.container a img {
+	display: flex;
+	-webkit-transition: all 0.5s;
+}
+.container a img:hover {
+	-webkit-filter: none;
+}
+.invert {-webkit-filter: blur(550px);
+	width:3000px;
+	height:1200px;
+	float: left;
+    display: flex;
+    margin: auto;
+    width: 50%;
+    margin-left: 1250px;
+		cursor: pointer;
+}
+
+
+
+ 	
+
+
+
+
+     .container2 a img {
+	display: flex;
+	-webkit-transition: all 0.5s;
+}
+.container2 a img:hover {
+	-webkit-filter: none;
+}
+.invert {-webkit-filter: blur(550px);
+	width:3000px;
+	height:1200px;
+	float: left;
+    display: flex;
+    margin: auto;
+    width: 50%;
+    margin-left: 1250px;
+		cursor: pointer;
+}
+
+
+
+	
+     .container3 a img {
+	display: flex;
+	-webkit-transition: all 0.5s;
+}
+.container3 a img:hover {
+	-webkit-filter: none;
+}
+.invert {-webkit-filter: blur(550px);
+	width:3000px;
+	height:1200px;
+	float: left;
+    display: flex;
+    margin: auto;
+    width: 50%;
+    margin-left: 1250px;
+		cursor: pointer;
+}
+
+     .container4 a img {
+	display: flex;
+	-webkit-transition: all 0.5s;
+}
+.container4 a img:hover {
+	-webkit-filter: none;
+}
+.invert {-webkit-filter: blur(550px);
+	width:3000px;
+	height:1200px;
+	float: left;
+    display: flex;
+    margin: auto;
+    width: 50%;
+    margin-left: 1250px;
+		cursor: pointer;
+}
+
+    	   .container5 a img {
+	display: flex;
+	-webkit-transition: all 0.5s;
+}
+.container5 a img:hover {
+	-webkit-filter: none;
+}
+.invert {-webkit-filter: blur(550px);
+	width:3000px;
+	height:1200px;
+	float: left;
+    display: flex;
+    margin: auto;
+    width: 50%;
+    margin-left: 1250px;
+		cursor: pointer;
+}
+
+
+    	   .container6 a img {
+	display: flex;
+	-webkit-transition: all 0.5s;
+}
+.container6 a img:hover {
+	-webkit-filter: none;
+}
+.invert {-webkit-filter: blur(550px);
+	width:3000px;
+	height:1200px;
+	float: left;
+    display: flex;
+    margin: auto;
+    width: 50%;
+    margin-left: 1250px;
+		cursor: pointer;
+}
+
+
+   	   .container7 a img {
+	display: flex;
+	-webkit-transition: all 0.5s;
+}
+.container6 a img:hover {
+	-webkit-filter: none;
+}
+.invert {-webkit-filter: blur(550px);
+	width:3000px;
+	height:1200px;
+	float: left;
+    display: flex;
+    margin: auto;
+    width: 50%;
+    margin-left: 1250px;
+		cursor: pointer;
+}
+
+ 	   .container10 a img {
+	display: flex;
+	-webkit-transition: all 0.5s;
+}
+.container10 a img:hover {
+	-webkit-filter: none;
+}
+.invert {-webkit-filter: blur(550px);
+	width:3000px;
+	height:1200px;
+	float: left;
+    display: flex;
+    margin: auto;
+    width: 50%;
+    margin-left: 1250px;
+		cursor: pointer;
+}
+
+
+  .container11 a img {
+	display: flex;
+	-webkit-transition: all 0.5s;
+}
+.container11 a img:hover {
+	-webkit-filter: none;
+}
+.invert {-webkit-filter: blur(550px);
+	width:3000px;
+	height:1200px;
+	float: left;
+    display: flex;
+    margin: auto;
+    width: 50%;
+    margin-left: 1250px;
+		cursor: pointer;
+}
+
+  .container12 a img {
+	display: flex;
+	-webkit-transition: all 0.5s;
+}
+.container12 a img:hover {
+	-webkit-filter: none;
+}
+.invert {-webkit-filter: blur(550px);
+	width:3000px;
+	height:1200px;
+	float: left;
+    display: flex;
+    margin: auto;
+    width: 50%;
+    margin-left: 1250px;
+		cursor: pointer;
+}
+
+
+
+  .container13 a img {
+	display: flex;
+	-webkit-transition: all 0.5s;
+}
+.container13 a img:hover {
+	-webkit-filter: none;
+}
+.invert {-webkit-filter: blur(550px);
+	width:3000px;
+	height:1200px;
+	float: left;
+    display: flex;
+    margin: auto;
+    width: 50%;
+    margin-left: 1250px;
+		cursor: pointer;
+}
+
+  .container14 a img {
+	display: flex;
+	-webkit-transition: all 0.5s;
+}
+.container14 a img:hover {
+	-webkit-filter: none;
+}
+.invert {-webkit-filter: blur(550px);
+	width:3000px;
+	height:1200px;
+	float: left;
+    display: flex;
+    margin: auto;
+    width: 50%;
+    margin-left: 1250px;
+		cursor: pointer;
+}
+
+
+  .container15 a img {
+	display: flex;
+	-webkit-transition: all 0.5s;
+}
+.container15 a img:hover {
+	-webkit-filter: none;
+}
+.invert {-webkit-filter: blur(550px);
+	width:3000px;
+	height:1200px;
+	float: left;
+    display: flex;
+    margin: auto;
+    width: 50%;
+    margin-left: 1250px;
+		cursor: pointer;
+}
+
+  .container16 a img {
+	display: flex;
+	-webkit-transition: all 0.5s;
+}
+.container16 a img:hover {
+	-webkit-filter: none;
+}
+.invert {-webkit-filter: blur(550px);
+	width:3000px;
+	height:1200px;
+	float: left;
+    display: flex;
+    margin: auto;
+    width: 50%;
+    margin-left: 1250px;
+		cursor: pointer;
+}
+
+  .container17 a img {
+	display: flex;
+	-webkit-transition: all 0.5s;
+}
+.container17 a img:hover {
+	-webkit-filter: none;
+}
+.invert {-webkit-filter: blur(550px);
+	width:3000px;
+	height:1200px;
+	float: left;
+    display: flex;
+    margin: auto;
+    width: 50%;
+    margin-left: 1250px;
+		cursor: pointer;
+}
