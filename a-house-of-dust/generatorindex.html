@@ -1,0 +1,188 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<link href="https://fonts.googleapis.com/css?family=Caveat" rel="stylesheet">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>undefined</title>
+	
+	
+	<!-- 
+	***** START CSS ***** 
+	-->
+	<style>
+
+		/* You can change the colors, font, and so on below */
+		@import url('https://fonts.googleapis.com/css?family=Caveat');
+
+
+
+
+		body {
+			background-image: linear-gradient(-90deg, black, #696969);
+			
+			color:white;
+			font-size: 50px;
+			text-align: center;
+		
+			font-family: 'Caveat', cursive;
+		}
+
+		.list-one {
+
+		}
+
+		.list-two {
+			text-indent: 2em;
+		}
+
+		.list-three {
+			text-indent: 2em;
+		}
+
+		.list-four {
+			text-indent: 2em;
+		}
+
+		p {
+			margin-bottom: 2em;
+		}
+
+	</style>
+	<!-- 
+	***** END CSS ***** 
+	-->
+
+
+	<!-- 
+	***** START JAVASCRIPT ***** 
+	-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+
+			// list one content (noun:person place thing)
+			var one = [
+				"In the area",
+				"Jumping man",
+				"Rolling around",
+				"Cluster of people",
+				"A group huddle",
+				"Out of order",
+				"Bunched together",
+				"Found archive",
+				"Up in the sky",
+				"The alliance",
+				"She grew up strong enough",
+				"All that he had to lose",
+				"You wont let them in",
+				"Afraid of being rejected",
+				"You are strong enough",
+				"You gave everything",
+				"Have you done enough?",
+				"You are quiet to keep things calm",
+				"You don't show off so you stay safe",
+				"In your mind is nothing but calm",
+				""
+
+			
+			
+			];
+
+			// list two content (verb:describe action or state)
+				var two = [
+				"diving down",
+				"trying to pull through",
+				"hear I come",
+				"there they go",
+				"he rode around for hours",
+				"they layed there all night",
+				"she waited for them",
+				"close the door!",
+				"she thought about the missing",
+				"jumping into the wonder",
+				"starving from judging",
+				"talking and not caring",
+				"hearing for what?",
+				"don't go looking down",
+				"finally seeing whats there",
+				"wanting only whats real",
+				"wanting to be heard",
+				"free to express without regret",
+					];
+			// list three content
+			var three = [
+			""
+			
+			];
+			// list four content
+			var four = [
+			""
+			];
+
+			// This is a very common randomizing function.
+			// It takes a list (array) and returns one at random.
+			function select_random(x){
+				y = x[Math.floor(Math.random()*x.length)];
+				return y;
+			}
+
+			// This is the generator function
+			function generate(){
+
+				// Select a random item from each list
+				var selected_one = select_random(one);
+				var selected_two = select_random(two);
+				var selected_three = select_random(three);
+				var selected_four = select_random(four);
+
+				// Make a paragraph and then add the selected (random) item from each list list
+				$('body').append('<p>');
+				$('body').append('<div class="list-one">' + selected_one + '</div>');
+				$('body').append('<div class="list-two">' + selected_two + '</div>');
+				$('body').append('<div class="list-three">' + selected_three + '</div>');
+				$('body').append('<div class="list-four">' + selected_four + '</div>');
+				$('body').append('</p>');
+
+			}
+
+			// Run the generator every two seconds ("2000" in the code below)
+			function timeout() {
+			    setTimeout(function () {
+			        generate();
+			        timeout();
+			    }, 2000);
+			}
+
+			generate();
+
+			timeout();
+			
+		});
+
+	</script>
+	<!-- 
+	***** END JAVASCRIPT ***** 
+	-->
+
+</head>
+
+<body>
+
+	<!--
+	This is the visible portion.
+
+	If you want your words or phrases to go side-by-side, change...
+
+	<div></div>
+	to
+	<span></span>
+
+	in the code below.
+	-->
+
+</body>
+
+</html>
