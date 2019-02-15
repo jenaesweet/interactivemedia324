@@ -1,0 +1,257 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<link href="https://fonts.googleapis.com/css?family=Scheherazade" rel="stylesheet">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>undefined</title>
+	
+	<!-- 
+	***** START CSS ***** 
+	-->
+	<style>
+
+		/* You can change the colors, font, and so on below */
+		@import url('https://fonts.googleapis.com/css?family=Scheherazade');
+
+		body {
+			background-color:black;
+			color:white;
+			text-align: center;
+			font-size: 50px;
+			text-transform: lowercase;
+			font-family: 'Scheherazade', serif;
+		}
+
+		.list-one {
+
+		}
+
+		.list-two {
+			text-indent: 2em;
+		}
+
+		.list-three {
+			text-indent: 2em;
+		}
+
+		.list-four {
+			text-indent: 2em;
+		}
+
+		p {
+			margin-bottom: 2em;
+		}
+
+	</style>
+	<!-- 
+	***** END CSS ***** 
+	-->
+
+
+	<!-- 
+	***** START JAVASCRIPT ***** 
+	-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+
+			// list one content
+			var one = [
+				"You are walking",
+				"You are falling",
+				"You are tripping",
+				"You are running",
+				"You are crying",
+				"You are sobbing",
+				"You are yelling",
+				"You are fighting",
+				"You are laughing",
+				"You are wailing",
+				"You are tapping",
+				"You are biting",
+				"You are stabbing",
+				"You are cutting",
+				"You shine",
+				"You are soaring",
+				"You devour",
+				"You are fighting",
+				"You are confronting",
+				"You are punching",
+				"You are kicking",
+				"You are ripping",
+				"You are poking",
+				"You are absorbing",
+				"You are serving",
+				"You are heightened",
+				"You hail",
+				"You are inspecting",
+				"You are slashing",
+				"You are smashing",
+				"You are dangling",
+				"You are pounding",
+				"You are failing",
+				""
+			
+			];
+
+			// list two content
+				var two = [
+			
+				"because you are fearful ",
+				"because you are fair",
+				"becauase you are aggresive",
+				"because you are ambitious",
+				"because you are brave",
+				"because you are jealous ",
+				"because you are repulsive",
+				"because you are eager",
+				"because you are lively",
+				"becuase you are fast",
+				"because you are proud",
+					"Why is your dog peeing on my car?",
+				"Get over it",
+				"You're still thinking about that",
+				"It's fine",
+				"you're annoying me",
+				"you're annoyed",
+				"Who's yelling?",
+				"This is awkward",
+				"Why?",
+				"Why does he act that way?",
+				"Why are you overthinking?",
+				"Stop.",
+				"So you don't want to talk.",
+				"You have to leave",
+				"I want to leave",
+				"Does it smell?",
+				"Should I leave?",
+				"Should you leave?",
+				"I'll stay here",
+				"Why is everyone sick?",
+				"You don't know",
+				"I don't know",
+				"That's not funny",
+				"I'm over this",
+				"I want to leave",
+				"Why was that so uncomfortable?",
+				"was that my fault?",
+				"Oh well.",
+				"Don't do that here",
+				"this is so creepy",
+				"I need to leave",
+				"You need to leave",
+			
+
+			
+
+			];
+			// list three content
+			var three = [
+			
+
+				"Why is your dog peeing on my car?",
+				"Get over it",
+				"You're still thinking about that",
+				"It's fine",
+				"you're annoying me",
+				"you're annoyed",
+				"Who's yelling?",
+				"This is awkward",
+				"Why?",
+				"Why does he act that way?",
+				"Why are you overthinking?",
+				"Stop.",
+				"So you don't want to talk.",
+				"You have to leave",
+				"I want to leave",
+				"Does it smell?",
+				"Should I leave?",
+				"Should you leave?",
+				"I'll stay here",
+				"Why is everyone sick?",
+				"You don't know",
+				"I don't know",
+				"That's not funny",
+				"I'm over this",
+				"I want to leave",
+				"Why was that so uncomfortable?",
+				"was that my fault?",
+				"Oh well.",
+				"Don't do that here",
+				"this is so creepy",
+				"I need to leave",
+				"You need to leave",
+				];
+
+			// list four content
+			var four = [
+			""
+			];
+
+			// This is a very common randomizing function.
+			// It takes a list (array) and returns one at random.
+			function select_random(x){
+				y = x[Math.floor(Math.random()*x.length)];
+				return y;
+			}
+
+			// This is the generator function
+			function generate(){
+
+				// Select a random item from each list
+				var selected_one = select_random(one);
+				var selected_two = select_random(two);
+				var selected_three = select_random(three);
+				var selected_four = select_random(four);
+
+				// Make a paragraph and then add the selected (random) item from each list list
+				$('body').append('<p>');
+				$('body').append('<div class="list-one">' + selected_one + '</div>');
+				$('body').append('<div class="list-two">' + selected_two + '</div>');
+				$('body').append('<div class="list-three">' + selected_three + '</div>');
+				$('body').append('<div class="list-four">' + selected_four + '</div>');
+				$('body').append('</p>');
+
+			}
+
+			// Run the generator every two seconds ("2000" in the code below)
+			function timeout() {
+			    setTimeout(function () {
+			        generate();
+			        timeout();
+			    }, 2000);
+			}
+
+			generate();
+
+			timeout();
+			
+		});
+
+	</script>
+	<!-- 
+	***** END JAVASCRIPT ***** 
+	-->
+
+</head>
+
+<body>
+
+	<!--
+	This is the visible portion.
+
+	If you want your words or phrases to go side-by-side, change...
+
+	<div></div>
+	to
+	<span></span>
+
+	in the code below.
+	-->
+
+</body>
+
+</html>
